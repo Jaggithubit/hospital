@@ -12,5 +12,3 @@ public class AppConfig {
         return new BCryptPasswordEncoder();
     }
 }s
-
-hello welcome
