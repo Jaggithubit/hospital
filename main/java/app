@@ -13,4 +13,11 @@ public class AppConfig {
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
-}s
+}
+@Configuration
+public class AppConfig {
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
+}
